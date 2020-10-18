@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="Cart.css">
+
+</head>
+<body>
+
+<div class="row">
+  <h1><hr>Shopping Cart<hr></h1><br/>
+  <div id="alerts"></div>
+  <div class="column">
+    <div class="productcont">
+            <div class="product card">
+              <h3 class="productname">Samsung Series 4</h3>
+              <img src="https://rukminim1.flixcart.com/image/670/600/allinone-desktop/d/n/q/apple-imac-21-5-inch-4k-retina-core-i5-3-1ghz-8gb-1tb-intel-iris-original-imaeh5h83fuzbksz.jpeg?q=90" alt="1" style="width:100%"/>
+             <p class="price">$13999.00</p>
+        <button class="addtocart">Add To Cart</button>
+            </div>
+            <div class="product card">
+              <h3 class="productname">Samsung Super 6</h3>
+              <img src="https://rukminim1.flixcart.com/image/670/600/allinone-desktop/d/n/q/apple-imac-21-5-inch-4k-retina-core-i5-3-1ghz-8gb-1tb-intel-iris-original-imaeh5h83fuzbksz.jpeg?q=90" alt="2" style="width:100%"/>
+              <p class="price">$35999.00</p>
+              <button class="addtocart">Add To Cart</button>
+            </div>
+            <div class="product card">
+              <h3 class="productname">Thomson B9 Pro</h3>
+              <img src="https://rukminim1.flixcart.com/image/670/600/allinone-desktop/d/n/q/apple-imac-21-5-inch-4k-retina-core-i5-3-1ghz-8gb-1tb-intel-iris-original-imaeh5h83fuzbksz.jpeg?q=90" alt="2" style="width:100%"/>
+              <p class="price">$84999.00</p>
+              <button class="addtocart">Add To Cart</button>
+            </div>
+            </div>
+            <div class="productcont">
+              <div class="product card">
+               <h3 class="productname">LG Ultra HD</h3>
+               <img src="https://rukminim1.flixcart.com/image/670/600/allinone-desktop/d/n/q/apple-imac-21-5-inch-4k-retina-core-i5-3-1ghz-8gb-1tb-intel-iris-original-imaeh5h83fuzbksz.jpeg?q=90" alt="2" style="width:100%"/>
+               <p class="price">$9999.00</p>
+               <button class="addtocart">Add To Cart</button>
+           </div>
+           <div class="product card">
+             <h3 class="productname">Vu Ready LED TV</h3>
+             <img src="https://rukminim1.flixcart.com/image/670/600/allinone-desktop/d/n/q/apple-imac-21-5-inch-4k-retina-core-i5-3-1ghz-8gb-1tb-intel-iris-original-imaeh5h83fuzbksz.jpeg?q=90" alt="2" style="width:100%"/>
+             <p class="price">$39990.00</p>
+             <button class="addtocart">Add To Cart</button>
+         </div>
+         <div class="product card">
+           <h3 class="productname">Koryo Android TV</h3>
+           <img src="https://rukminim1.flixcart.com/image/670/600/allinone-desktop/d/n/q/apple-imac-21-5-inch-4k-retina-core-i5-3-1ghz-8gb-1tb-intel-iris-original-imaeh5h83fuzbksz.jpeg?q=90" alt="2" style="width:100%"/>
+           <p class="price">$7999.00</p>
+           <button class="addtocart">Add To Cart</button>
+       </div>
+      </div>
+
+          </div>
+  <div class="column">
+    <div class="cart-container">
+      <h2>Cart</h2>
+      <table>
+        <thead>
+          <tr>
+          <th><strong>Product</strong></th>
+          <th><strong>Price</strong></th>
+        </tr>
+        </thead>
+        <tbody id="carttable">
+        </tbody>
+      </table>
+      <hr>
+      <table id="carttotals">
+        <tr>
+          <td><strong>Items</strong></td>
+          <td><strong>Total</strong></td>
+        </tr>
+        <tr>
+          <td>x <span id="itemsquantity">0</span></td>
+         
+          <td>$<span id="total">0</span></td>
+        </tr></table>
+
+        
+      <div class="cart-buttons">  
+        <button id="emptycart">Empty Cart</button>
+        <button id="checkout">Checkout</button>
+      </div>
+    </div>
+</div></div>
+  </div>
+
+</body>
+<script src="Cart.js"></script>
+</html>
